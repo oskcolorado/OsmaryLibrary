@@ -1,0 +1,20 @@
+<div class="col-12">
+  <h5 class="modal-title text-center" id="exampleModalLabel">New Book</h5>
+</div>
+<form [formGroup]="bookFormGroup">
+  <mat-form-field class="col-12">
+    <input type="text" matInput formControlName="name" placeholder="Name" minlength="2" maxlength="50" required>
+  </mat-form-field>
+  <mat-form-field class="col-12">
+    <input type="text" matInput formControlName="editorial" placeholder="Editorial" minlength="2" maxlength="50" required>
+  </mat-form-field>
+  <mat-form-field class="col-12">
+    <input type="text" matInput formControlName="author" placeholder="Author" minlength="2" maxlength="50" required>
+  </mat-form-field>
+  <mat-form-field class="col-12">
+    <input type="text" matInput formControlName="edition" placeholder="Edition" minlength="2" maxlength="50" required>
+  </mat-form-field>
+  <div class="col-12 text-center">
+    <button mat-raised-button color="primary" [disabled]="bookFormGroup.invalid" (click)="sendForm()" class="">Save changes</button>
+  </div>
+</form>

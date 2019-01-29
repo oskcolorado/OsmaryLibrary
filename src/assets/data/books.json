@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Harry Potter 1",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "First"
+  },
+  {
+    "name": "Harry Potter 2",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Second"
+  },
+  {
+    "name": "Harry Potter 3",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Third"
+  },
+  {
+    "name": "Harry Potter 4",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Quarter"
+  },
+  {
+    "name": "Harry Potter 5",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Fifth"
+  },
+  {
+    "name": "Harry Potter 6",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Sixth"
+  },
+  {
+    "name": "Harry Potter 7",
+    "editorial": "Pottermore Publishing",
+    "author": "J. K. Rowling",
+    "edition": "Seventh"
+  }
+]
